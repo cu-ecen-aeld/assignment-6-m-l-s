@@ -5,6 +5,11 @@ on:
             - '*'
         branches:
             - '*'
+    workflow_dispatch:
+        tags-ignore:
+            - '*'
+        branches:
+            - '*'
 jobs:
       full-test:
         runs-on: ubuntu-latest
