@@ -34,4 +34,5 @@ else
 fi
 
 set -e
+echo 'INHERIT += "rm_work"' >>conf/local.conf
 bitbake core-image-aesd
